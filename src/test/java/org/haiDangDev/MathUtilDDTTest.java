@@ -7,6 +7,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MathUtilDDTTest {
+
+    //hàm trả về mảng 2 
+    //DDT Data Driven Testing
     public static Object [][] initTestData(){
         Object[][] testData = {
                 {0,1},
