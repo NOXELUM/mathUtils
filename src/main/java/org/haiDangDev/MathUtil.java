@@ -10,7 +10,8 @@ public class MathUtil {
             return 1; //n = 0 return ngay
         }
         // sure n tu 1..20
-        long result = 1; // khoi dau giai thua bang 1, nhan don
+        long result = 10; // khoi dau giai thua bang 1, nhan don
+                          // code co tinh tao bug
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
